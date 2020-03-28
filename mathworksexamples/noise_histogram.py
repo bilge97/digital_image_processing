@@ -1,7 +1,7 @@
 import cv2
 from matplotlib import pyplot as plt
 
-img  = cv2.imread('Fig0240(a)(apollo 17_boulder_noisy) (1).tif' , 0)
+img  = cv2.imread('gurultuluresim.JPG' , 0)
 
 _ , th1 = cv2.threshold(img , 127 , 255 , cv2.THRESH_BINARY)
 _ , th2 = cv2.threshold(img , 0 , 255 , cv2.THRESH_BINARY+cv2.THRESH_OTSU)
